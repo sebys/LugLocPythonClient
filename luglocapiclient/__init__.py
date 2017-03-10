@@ -2,6 +2,6 @@
 
 __author__ = """Sebis Henzenn"""
 __email__ = 'sebys@hotmail.com'
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 
-from luglocapiclient import LugLoc
+from .luglocapiclient import LugLoc

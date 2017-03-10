@@ -10,7 +10,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    # TODO: put package requirements here
+    'requests'
 ]
 
 test_requirements = [
@@ -19,7 +19,7 @@ test_requirements = [
 
 setup(
     name='luglocapiclient',
-    version='0.1.1',
+    version='0.1.2',
     description="Simpleapi client for LugLoc",
     long_description=readme + '\n\n' + history,
     author="Sebis Henzenn",
