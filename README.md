@@ -16,6 +16,15 @@ The methods of the client return information about the user and devices, for exa
 
     myClient.getUserInfo()
 
+## Methods
+
+get_user_info
+get_devices
+get_device
+get_location_history
+refresh_location
+turn_off
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/sebys/LugLocPythonClient.
