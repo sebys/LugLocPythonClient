@@ -4,7 +4,7 @@ Simple LugLoc API client for python developers.
 
 ## Installation
 
-To install the module run:
+To install the module, run the following command:
 
     pip install git+https://github.com/sebys/LugLocPythonClient
 
@@ -19,7 +19,7 @@ The methods of the API client return information about the user and your devices
 
     my_client.get_devices()
 
-Return:
+Return the following json:
 
     [
         {
@@ -35,7 +35,7 @@ Return:
             "HasBluetooth":true,
             "HasRfOffMode":false,
             "HasTraces":true,
-            "IconUrl":"https://luglocstorage.blob.core.windows.net/icons/ee4ff797-2159-4dc5-a94f-aaa0979e4e07",
+            "IconUrl":"",
             "LastAccuracy":2592.0,
             "LastBatteryUpdate":"2016-09-20T12:12:09.733Z",
             "LastLatitude":-31.261106099999996,
@@ -60,7 +60,7 @@ Return:
             "HasBluetooth":true,
             "HasRfOffMode":true,
             "HasTraces":true,
-            "IconUrl":"https://luglocstorage.blob.core.windows.net/icons/efa73c47-b2f2-44a5-83ba-ff6c1b47a5a1",
+            "IconUrl":"",
             "LastAccuracy":2612.0,
             "LastBatteryUpdate":"2017-03-07T14:13:09.397Z",
             "LastLatitude":-31.256418099999998,
