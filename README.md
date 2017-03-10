@@ -8,13 +8,13 @@ Simple LugLoc API client for python.
 
 ## Usage
 
-For create a LugLoc client you need create a LugLoc object:
+Do create a LugLoc API client you need create a LugLoc object:
 
-    myClient = LugLoc("user@lugloc.com", "password", "client_id", "client_secret")
+    my_client = LugLoc("user@lugloc.com", "password", "client_id", "client_secret")
 
 The methods of the client return information about the user and devices, for example:
 
-    myClient.getUserInfo()
+    my_client.getUserInfo()
 
 ## Methods
 
