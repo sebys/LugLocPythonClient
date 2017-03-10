@@ -1,10 +1,12 @@
 # LugLoc API Client
 
-Simple LugLoc API client for python.
+Simple LugLoc API client for python developers.
 
 ## Installation
 
-...
+To install the module run:
+
+    pip install git+https://github.com/sebys/LugLocPythonClient
 
 ## Usage
 
@@ -17,9 +19,60 @@ The methods of the API client return information about the user and your devices
 
     my_client.get_devices()
 
-Return 
+Return:
 
-...
+    [
+        {
+            "ActivationDate":"2016-08-09T21:52:14.543Z",
+            "AllwaysOn":false,
+            "Battery":"100%",
+            "BluetoothID":"Bluetooth_Id",
+            "CustomerId":1,
+            "DeviceId":1,
+            "DeviceName":"My LugLoc I",
+            "FreeUTraces":true,
+            "FreeUTracesExpirationDate":"2016-09-09T13:22:55.987Z",
+            "HasBluetooth":true,
+            "HasRfOffMode":false,
+            "HasTraces":true,
+            "IconUrl":"https://luglocstorage.blob.core.windows.net/icons/ee4ff797-2159-4dc5-a94f-aaa0979e4e07",
+            "LastAccuracy":2592.0,
+            "LastBatteryUpdate":"2016-09-20T12:12:09.733Z",
+            "LastLatitude":-31.261106099999996,
+            "LastLocationGeneralDescription":"Santa Fe Province, Argentina",
+            "LastLocationPhotoUrl":"https://lh4.googleusercontent.com/-YqafncPgAXQ/VqqnpnSRS9I/AAAAAAAABVA/ebQVEpR4TcgjM2mBiYb-a33RooI8JFuDQ/s1600-w600/",
+            "LastLocationSpecificDescription":"Rafaela",
+            "LastLongitude":-61.4994242,
+            "LastPositionUpdate":"2016-09-20T12:11:11.597Z",
+            "Status":"Rf_Off",
+            "TracesExpirationDate":"2019-09-26T18:51:56.743Z"
+        },
+        {
+            "ActivationDate":"2016-03-19T11:49:30.910Z",
+            "AllwaysOn":true,
+            "Battery":"100%",
+            "BluetoothID":"Bluetooth_Id",
+            "CustomerId":1,
+            "DeviceId":2,
+            "DeviceName":"My LugLoc II",
+            "FreeUTraces":true,
+            "FreeUTracesExpirationDate":"2016-04-05T22:03:27.430Z",
+            "HasBluetooth":true,
+            "HasRfOffMode":true,
+            "HasTraces":true,
+            "IconUrl":"https://luglocstorage.blob.core.windows.net/icons/efa73c47-b2f2-44a5-83ba-ff6c1b47a5a1",
+            "LastAccuracy":2612.0,
+            "LastBatteryUpdate":"2017-03-07T14:13:09.397Z",
+            "LastLatitude":-31.256418099999998,
+            "LastLocationGeneralDescription":"Santa Fe Province, Argentina",
+            "LastLocationPhotoUrl":"https://lh3.googleusercontent.com/-W7_1ctpj-ig/V8irsCQXsAI/AAAAAAAAAKQ/KUro8xxLJvARMlBnElxJruabbykyT5dPwCJkC/s1600-w600/",
+            "LastLocationSpecificDescription":"Rafaela",
+            "LastLongitude":-61.4930775,
+            "LastPositionUpdate":"2017-03-10T16:12:12.553Z",
+            "Status":"Normal",
+            "TracesExpirationDate":"2017-06-01T00:00:00.000Z"
+        }
+    ]
 
 ## Methods
 
